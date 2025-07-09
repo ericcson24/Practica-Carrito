@@ -5,7 +5,7 @@
 {
   "lock": false,
   "tasks": {
-    "dev": "deno run -A watcher.ts",
+    "dev": "deno run -A main.ts",
     "check": "deno fmt --check && deno lint && deno check **/*.ts && deno check **/*.tsx",
     "cli": "echo \"import '\\$fresh/src/dev/cli.ts'\" | deno run --unstable -A -",
     "manifest": "deno task cli manifest $(pwd)",
